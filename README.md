@@ -16,3 +16,12 @@ poetry update
 poetry install
 pre-commit install
 ```
+
+#### Rename your package!
+
+If your package is going to be named `foo`:
+
+```
+mv mypackage foo
+sed -i .bumpversion.cfg 's/my_package/foo/g'
+```
