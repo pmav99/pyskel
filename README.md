@@ -22,6 +22,6 @@ pre-commit install
 If your package is going to be named `foo`:
 
 ```
-mv mypackage foo
+mv my_package foo
 sed -i .bumpversion.cfg 's/my_package/foo/g'
 ```
