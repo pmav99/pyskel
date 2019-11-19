@@ -24,4 +24,5 @@ If your package is going to be named `foo`:
 ```
 mv mypackage foo
 sed -i .bumpversion.cfg 's/my_package/foo/g'
+sed -i .pyproject.toml 's/my_package/foo/g'
 ```
